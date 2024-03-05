@@ -1,0 +1,60 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "setup",
+			"problemMatcher": [],
+			"label": "npm: setup",
+			"detail": "npm i && cd data && echo 0 > commands.txt && mkdir notes && mkdir profiles && mkdir langBackup && cd .. && echo done"
+		},
+		{
+			"type": "script",
+			"scriptType": "batch",
+			"path": "",
+			"fileName": "start.bat",
+			"scriptFile": true,
+			"script": "bat",
+			"target": "bat",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "/Users/uuwanamodo/Documents/Dainsleif-Public-Release/start.bat",
+				"external": "file:///Users/uuwanamodo/Documents/Dainsleif-Public-Release/start.bat",
+				"path": "/Users/uuwanamodo/Documents/Dainsleif-Public-Release/start.bat",
+				"scheme": "file"
+			},
+			"takesArgs": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "batch: start.bat"
+		},
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "node ."
+		},
+		{
+			"type": "script",
+			"scriptType": "bash",
+			"path": "",
+			"fileName": "start.sh",
+			"scriptFile": true,
+			"script": "sh",
+			"target": "sh",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "/Users/uuwanamodo/Documents/Dainsleif-Public-Release/start.sh",
+				"path": "/Users/uuwanamodo/Documents/Dainsleif-Public-Release/start.sh",
+				"scheme": "file"
+			},
+			"takesArgs": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "bash: start.sh"
+		}
+	]
+}
